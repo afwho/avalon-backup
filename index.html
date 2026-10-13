@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Avalon Backup is a private-use utility for storing encrypted server backups in the owner's Google Drive.">
+  <title>Avalon Backup — Private encrypted backups</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" aria-label="Site navigation">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true">A</span><span>AVALON <span class="brand-light">/ BACKUP</span></span></a>
+      <a class="nav-link" href="privacy.html">Privacy policy <span aria-hidden="true">↗</span></a>
+    </header>
+    <main>
+      <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PRIVATE-USE UTILITY</div>
+      <h1>Quietly keeping<br><em>what matters.</em></h1>
+      <p class="intro">Avalon Backup is a personal-use backup utility that securely stores encrypted server backups in the owner's Google Drive account.</p>
+      <div class="rule"></div>
+      <section class="features" aria-label="How it works">
+        <article><div class="feature-number">01</div><h2>Encrypted before upload</h2><p>Backup contents are encrypted on the server using Restic before transfer to Google Drive.</p></article>
+        <article><div class="feature-number">02</div><h2>Limited Drive access</h2><p>Rclone uses Google OAuth with the <code>drive.file</code> permission for backup files created or accessed through this application.</p></article>
+        <article><div class="feature-number">03</div><h2>Owner-controlled</h2><p>This is not a public backup service. There are no public accounts, subscriptions or backup downloads on this website.</p></article>
+      </section>
+      <section class="note" aria-label="About the website"><strong>About this website</strong><p>This public page describes the application's purpose and data practices for its Google OAuth configuration. It does not host backup contents or provide access to the backup system.</p><a href="privacy.html">Read the full privacy policy <span aria-hidden="true">→</span></a></section>
+    </main>
+    <footer><span>© 2026 Avalon Backup · Personal-use application</span><a href="privacy.html">Privacy</a></footer>
+  </div>
+</body>
+</html>
